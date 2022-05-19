@@ -1,0 +1,26 @@
+// Import your components CSS files here.
+@import "alert";
+@import "avatar";
+@import "form_legend_clear";
+@import "navbar";
+.container {
+  text-align:center;
+}
+h1 {
+
+}
+ul {
+  list-style: none;
+  display:inline-table;
+  li {
+    display:inline;
+    a {
+      text-decoration: none;
+      margin: 20px;
+    }
+  }
+}
+.addbtn {
+  text-decoration: none;
+  color: green;
+}
